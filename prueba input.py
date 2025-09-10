@@ -8,7 +8,10 @@ numero2 = input("Introduce el segundo número: ")
 num1 = int(numero1)
 num2 = int(numero2)
 
+# Hacemos el cálculo
 resultado = num1 + num2
 
+# Mostramos el resultado por pantalla
 print("La suma es:", resultado)
+
 
