@@ -1,3 +1,3 @@
 # Practica-input-github
-en esta practica empiezo a trabajar con el input y a practicar.
+Esta es la primera practica del curso 2025-2026, en la que aprendo a trabajar con el input y a practicar.
 Autor: Martí Galmàn Vila
