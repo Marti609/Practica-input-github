@@ -1,28 +1,17 @@
-
-
 import math
 
-def calcular_area_circulo(diametro):
-    radio = diametro / 2
-    area = math.pi * (radio ** 2)
-    return area
+#solicitamos al usuario el valor numerico del diametro
+diametro=float(input("introduce el valor del diametro del circulo: "))
 
-def calcular_perimetro_circulo(diametro):
-    perimetro = math.pi * diametro
-    return perimetro
+#hacemos los calculos
+radio=diametro/2
+perimetro=2*math.pi*radio
+area=math.pi*radio**2
+arearedondeada=round(area,2)
+perimetroredondeado=round(perimetro,2)
 
-def main():
-    try:
-        diametro = float(input("Introduce el diámetro del círculo: "))
-        if diametro <= 0:
-            print("El diámetro debe ser un número positivo.")
-            return
-        area = calcular_area_circulo(diametro)
-        perimetro = calcular_perimetro_circulo(diametro)
+#mostramos por pantalla el resultado
+print("el perimetro del circulo es:",perimetroredondeado)
+print("el area del circulo es:",arearedondeada)
         
-        print("Área del círculo:", area:)
-        print(f"Perímetro del círculo:", perimetro)
-        
-    except ValueError:
-        print("Por favor, introduce un número válido.")
 
