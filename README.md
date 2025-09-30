@@ -3,13 +3,22 @@ Esta es la primera practica del curso 2025-2026, en la que tengo como proposito 
 Autor: Martí Galmàn Vila
 Versión inicial: 12/09/2025
 Programa que muestre por pantalla la frase “hello world”
+
 Programa que introduzca por teclado tres tipos de variables y se muestren por pantalla en el siguiente orden: número entero, texto y número decimal.
+
 Programa que pida dos números enteros y realice la suma correspondiente
+
 A partir del código anterior, realiza una versión para números con decimales
+
 Programa que pida cinco palabras y muestre una frase con las cinco. Modifica el código para que entre palabra y palabra haya una coma.
-A partir del programa 5. Haz que se muestre por pantalla también la frase en el orden inverso en que se han introducido las palabras.
-programa que calcule dos operandos con los 7 operadores vistos en clase. ¿Cómo puedes forzar que el resultado de la división tenga 2 decimales?
+
+A partir del programa Haz que se muestre por pantalla también la frase en el orden inverso en que se han introducido las palabras.
+
+programa que calcule dos operandos con los 7 operadores vistos en clase. 
+
+¿Cómo puedes forzar que el resultado de la división tenga 2 decimales?
 programa que pida un número de horas y muestre por pantalla los minutos y segundos
+
 programa que pida los segundos y muestre por pantalla y en la misma frase los minutos y las horas
 Introduce por teclado dos números y muestre por pantalla la siguiente información: cociente, resto y si el dividendo es par o impar.
 Realiza un programa que introduciendo el valor del lado de un cuadrado nos devuelva por pantalla en el área y el perímetro.
