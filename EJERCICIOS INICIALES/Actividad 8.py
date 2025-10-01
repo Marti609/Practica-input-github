@@ -1,3 +1,4 @@
+#8.programa que pida un número de horas y muestre por pantalla los minutos y segundos
 #pedimos al usuario que introduzca un numero
 Hora=float(input("introduce un numero de horas para pasarlo a minutos y a segundos"))
 #realizamos los calculos

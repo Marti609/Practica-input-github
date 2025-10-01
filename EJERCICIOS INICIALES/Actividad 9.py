@@ -1,3 +1,4 @@
+#9.programa que pida los segundos y muestre por pantalla y en la misma frase los minutos y las horas
 #pedimos al usuario que introduzca un numero
 Segundos=float(input("introduce un numero de segundos para pasarlo a minutos y a horas"))
 #realizamos los calculos

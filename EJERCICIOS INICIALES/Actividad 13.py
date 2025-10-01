@@ -1,3 +1,4 @@
+#13.Realiza un programa que, a partir introducir el lado de un cubo, presente por pantalla el área y para calcular el volumen utiliza el operador de exponente.
 # Solicitar al usuario el lado del cubo
 lado=float(input("Introduce el lado del cubo: "))
 

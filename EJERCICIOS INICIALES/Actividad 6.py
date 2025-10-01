@@ -1,3 +1,4 @@
+#6. A partir del programa 5. Haz que se muestre por pantalla también la frase en el ordeninverso en que se han introducido las palabras.
 #solicitar 5 palabras
 texto1 = input("introduce primera palabra")
 texto2 = input("introduce segunda palabra")
