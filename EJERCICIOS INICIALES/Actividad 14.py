@@ -10,7 +10,7 @@ area=math.pi*radio**2
 arearedondeada=round(area,2)
 perimetroredondeado=round(perimetro,2)
 
-#mostramos por pantalla el resultado
+#mostramos el resultado por pantalla
 print("el perimetro del circulo es:",perimetroredondeado)
 print("el area del circulo es:",arearedondeada)
         

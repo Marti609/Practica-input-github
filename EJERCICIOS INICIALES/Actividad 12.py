@@ -6,7 +6,7 @@ altura=float(input("introduce el valor de la altura: "))
 #hacemos los calculos
 perimetro=basemenor+basemayor+2*lados
 area=(basemenor+basemayor)+altura/2
-#mostramos por pantalla el resultado
+#mostramos el resultado por pantalla
 print("el perimetro del trapecio isosceles es:", perimetro)
 print("el area del trapecio isosceles es:", area)
 

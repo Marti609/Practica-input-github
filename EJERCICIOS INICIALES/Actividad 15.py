@@ -10,6 +10,6 @@ area=2*math.pi*radio*altura+2*math.pi*radio**2
 volumenredondeado=round(volumen,2)
 arearedondeada=round(area,2)
 
-#mostramos por pantalla el resultado
+#mostramos el resultado por pantalla
 print("el volumen del cilindro es:",volumenredondeado)
 print("el area del cilindro es:",arearedondeada)
