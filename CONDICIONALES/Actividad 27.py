@@ -5,7 +5,9 @@ var1=input("Introduce una letra: ")
 # Comprobamos si es minuscula o mayuscula
 if var1.isupper()==True:
     print("La letra es mayuscula")
-elif var1.islower()==True:
+if var1.islower()==True:
     print("La letra es minuscula")
-elif var1.isnumeric()==True: 
+if var1.isnumeric()==True: 
     print("El valor introducido es un numero")
+else:
+    print("La letra es mayuscula ¿?")
