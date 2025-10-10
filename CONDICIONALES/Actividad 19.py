@@ -3,6 +3,7 @@
 var1=float(input("introduce un numero: "))
 var2=float(input("introduce otro numero: "))
 
+#mostramos el resultado por pantalla
 if  var1>var2:
     print("el numero", var1,"es mas grande que", var2)
 elif var1==var2:

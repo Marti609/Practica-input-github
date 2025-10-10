@@ -6,4 +6,4 @@ frase=input("introduce una frase: ")
 longitud_frase=len(frase)
 
 #Mostramos por pantalla el resultado
-print(f"la longitud de la frase es de {longitud_frase} letras")
+print(f"la longitud de la frase es de {longitud_frase}")

@@ -8,4 +8,4 @@ if var1.isupper()==True:
 elif var1.islower()==True:
     print("La letra es minuscula")
 else: 
-    print("Error")
+    print("La letra es mayuscula ¿?")
