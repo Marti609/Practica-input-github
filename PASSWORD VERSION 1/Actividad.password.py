@@ -9,17 +9,56 @@ print("Posició 4: una lletra minúscula")
 print("Posició 5: un numero major o igual que 6 i menor o igual que 9")
 print("Posició 6: un dels següents símbols &, /, #")
 print("Posició 7: un numero menor o igual que 5 ")  
-password = input("Introdueix la paraula clau: ")
 
-errors = []
+# Demano al usuari que posi contrasenya
+password=input("Introdueix la contrasenya: ")
 
-#comprobem si la password te entre 6-8 carácters
-if not len(password)>8 or not len(password)<6:
-    if password[0].isdigit:
-        if int(password[0]) >=1 and int(password[0])<=5:
-            print("hola")
-        else:
-            print("Error")
+errors=[]  
 
+# Ara comprovo si la contrasenya te una longitud de 6-8 caràcters
+if len(password)<6 or len(password)>8:
+    print(f"Error, el password té una longitud de {len(password)} caràcters i no compleix els requisits")
 else:
-    print(f"Error, el password te una longitud de {len(password)} i no cumpleix els requisits")
+    # Ara comrpovo posició per posició
+
+    # Comprovo si la posició 0 es correcte es a dir si es un número major o igual que 1 i menor o igual que 5
+    if not password[0].isdigit() or not in ["1", "2", "3", "4", "5"]:
+        errors.append("Error en el caràcter 1")
+
+    # Comprovo si la posició 1 es correcte es a dir si es una lletra minúscula
+    if not password[1].islower():
+        errors.append("Error en el caràcter 2")
+
+    # Comprovo si la posició 2 es correcte es a dir si es una lletra majúscula
+    if not password[2].isupper():
+        errors.append("Error en el caràcter 3")
+
+    # Comprovo si la posició 3 es correcte es a dir si es un dels següents símbols *, _, @"
+    if password[3] not in ["*", "_", "@"]:
+        errors.append("Error en el caràcter 4")
+
+    # Comprovo si la posició 4 es correcte es a dir si es una lletra minúscula
+    if not password[4].islower():
+        errors.append("Error en el caràcter 5")
+
+    # Comprovo si la posició 5 es correcte es a dir si es un número major o igual que 6 i menor o igual que 9
+    if not password[5].isdigit() or not in ["6", "7", "8", "9"]:
+        errors.append("Error en el caràcter 6")
+
+    # Comprovo si la posició 6 es correcte es a dir si es un dels següents símbols &, /, #"
+    if len(password)>=7:
+        if password[6] not in ["&", "/", "#"]:
+            errors.append("Error en el caràcter 7")
+
+    # Comprovo si la posició 7 es correcte es a dir si es un número menor o igual que 5
+    if len(password)==8:
+        if not password[7].isdigit() or not in ["0", "1", "2", "3", "4", "5"]:
+            errors.append("Error en el caràcter 8")
+
+    # Mostro per pantalla si el password que ha introduit l'usuari es correcte o no, i també li mostro en quins caràcters ha comès errors
+    if len(errors)==0:
+        print("El format del PASSWORD és correcte ")
+    else:
+        print(e)
+
+
