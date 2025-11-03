@@ -16,13 +16,13 @@ password=input("Introdueix la contrasenya: ")
 errors=[]  
 
 # Comprovem si la longitud es entre 6 i 8 caràcters
-if len(password) < 6 or len(password) > 8:
+if len(password)<6 or len(password)>8:
     print(f"Error, el password té una longitud de {len(password)} caràcters i no compleix els requisits")
 else:
     # Comprovem cada posició
 
     # Comprovem si la posició 0 es correcte
-    if not password[0].isdigit() or not (1 <= int(password[0]) <= 5):
+    if not password[0].isdigit() or not (1<=int(password[0])<=5):
         errors.append("Error en el caràcter 1")
 
     # Comprovem si la posició 1 es correcte
@@ -52,11 +52,12 @@ else:
 
     # Comprovem si la posició 7 es correcte
     if len(password)==8:
-        if not password[7].isdigit() or int(password[7]) > 5:
+        if not password[7].isdigit() or int(password[7])>5:
             errors.append("Error en el caràcter 8")
 
     # Resultat final
     if len(errors)==0:
         print("El format del PASSWORD és correcte ")
     else:
+
         print(e)
