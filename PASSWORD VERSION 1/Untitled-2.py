@@ -10,7 +10,7 @@ print("Posició 5: un número major o igual que 6 i menor o igual que 9")
 print("Posició 6: un dels següents símbols &, /, #")
 print("Posició 7: un número menor o igual que 5")
 
-# Demanem al usuari que posi contrasenya
+# Demano al usuari que posi contrasenya
 password=input("Introdueix la contrasenya: ")
 
 errors=[]  
@@ -60,4 +60,5 @@ else:
         print("El format del PASSWORD és correcte ")
     else:
         print(e)
+
 
