@@ -5,5 +5,5 @@ total=0
 for i in password:
     if i.isnumeric: 
         total=total+int(i)
-    if i in vocales
-print(total)
+    if i in vocales:
+        print(total)

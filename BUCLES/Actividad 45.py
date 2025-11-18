@@ -1,6 +1,6 @@
 # 45. Realiza un programa que permita introducir una palabra por teclado y puedas recorrer el stringdistinguiendo vocales y las consonantes:
 palabra=input("Introduce una palabra: ")
-vocales = 'aeiouáéíóú'
+vocales="aeiouáéíóú"
 
 lista_consonantes=[]
 lista_vocales=[]

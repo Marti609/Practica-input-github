@@ -2,11 +2,10 @@
 # Pedimos al usuario que introduzca una palabra
 palabra=input("Introduce una palabra: ")
 longitud=len(palabra)
-if palabra .isalpha:
-    for i in range(len(palabra)):
-        print(f"En la posición {i} está la {palabra[i]}")
-else:
-    print("Error")
+
+for i in range(len(palabra)):
+    print(f"En la posición {i} está la {palabra[i]}")
+
  
 
   
