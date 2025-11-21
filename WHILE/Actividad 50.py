@@ -2,5 +2,5 @@
 contador=0
 
 while contador<3:
-    print("Buenos días")
+    print("Buenos dias")
     contador+=1
