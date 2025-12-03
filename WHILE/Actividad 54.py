@@ -14,7 +14,5 @@ while repetir.lower=="s":
     if operaciones==1:
         print(f"La suma de todo es : {total} y llevas {operaciones} repeticiones")
     else:
-        print(f"El total acumulado es: {total} y llevas {operaciones} repeticiones")
-        break
- 
-    print("Fin del programa")
+        print(f"La suma total es: {total} y has hecho {operaciones} repeticiones")
+        print("Fin del programa")
