@@ -22,7 +22,7 @@ else:
     # Ara comrpovo posició per posició
 
     # Comprovo si la posició 0 es correcte es a dir si es un número major o igual que 1 i menor o igual que 5
-    if not password[0].isdigit() or not in ["1", "2", "3", "4", "5"]:
+    if not password[0].isdigit() or not password[0]>=1 and password[0]<=5:
         errors.append("Error en el caràcter 1")
 
     # Comprovo si la posició 1 es correcte es a dir si es una lletra minúscula
@@ -42,7 +42,7 @@ else:
         errors.append("Error en el caràcter 5")
 
     # Comprovo si la posició 5 es correcte es a dir si es un número major o igual que 6 i menor o igual que 9
-    if not password[5].isdigit() or not in ["6", "7", "8", "9"]:
+    if not password[5].isdigit() and password[5]>=6 and password[5]<=9:
         errors.append("Error en el caràcter 6")
 
     # Comprovo si la posició 6 es correcte es a dir si es un dels següents símbols &, /, #"
@@ -51,14 +51,14 @@ else:
             errors.append("Error en el caràcter 7")
 
     # Comprovo si la posició 7 es correcte es a dir si es un número menor o igual que 5
-    if len(password)==8:
-        if not password[7].isdigit() or not in ["0", "1", "2", "3", "4", "5"]:
+    if len(password)==8 :
+        if not password[7].isdigit() or not password[7]<=5 :
             errors.append("Error en el caràcter 8")
 
     # Mostro per pantalla si el password que ha introduit l'usuari es correcte o no, i també li mostro en quins caràcters ha comès errors
     if len(errors)==0:
         print("El format del PASSWORD és correcte ")
     else:
-        print(e)
+        print(errors)
 
 
