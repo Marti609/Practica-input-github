@@ -14,6 +14,6 @@ round(precio_mayor,3)
 total_mayor=mayor*precio_mayor
 total_menor=menor*precio_menor
 
-#mostramos el resultado por pantalla
+#mostramos el resultado de las operaciones por pantalla
 print("el precio total de cine de",mayor,"mayores de 18 años es:",total_mayor)
 print("el precio total de cine de",menor,"menores de 18 años es:",total_menor)
