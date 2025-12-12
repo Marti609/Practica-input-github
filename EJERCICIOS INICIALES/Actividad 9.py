@@ -4,6 +4,6 @@ Segundos=float(input("introduce un numero de segundos para pasarlo a minutos y a
 #realizamos los calculos
 Minutos=Segundos/60
 Hora=Segundos/3600
-#mostramos por pantalla el resultado
+#mostramos por pantalla el resultado de las operaciones
 print("el numero de minutos son:", Minutos)
 print("el numero de horas son:", Hora)

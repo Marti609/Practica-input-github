@@ -7,7 +7,7 @@ altura=float(input("introduzca su altura: "))
 IMC=peso/(altura*altura)
 round(IMC,2)
 
-#mostramos el resultado por pantalla
+#mostramos el resultado de las operaciones por pantalla
 print("si pesas:",peso,"y mides :",altura, "tu IMC es:", IMC)
 if IMC>=25:
     print("tienes sobrepeso")

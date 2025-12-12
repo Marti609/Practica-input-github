@@ -7,5 +7,4 @@ decimal2 = float(input("introduce otro numero decimal"))
 suma = decimal1+decimal2
 
 #mostramos por pantalla el resultado
-print 
-("el resultado de la suma es:", suma)
+print ("el resultado de la suma es:", suma)

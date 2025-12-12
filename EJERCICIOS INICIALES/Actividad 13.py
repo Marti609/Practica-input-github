@@ -8,7 +8,7 @@ area=6*lado**2
 # Calcular el volumen del cubo (lado^3)
 volumen=lado**3
 
-# Mostrar los resultados por pantalla
+# Mostrar los resultados de las operaciones por pantalla
 print("El área del cubo es:", area)
 print("El volumen del cubo es:", volumen)
 

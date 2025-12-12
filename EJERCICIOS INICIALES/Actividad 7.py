@@ -3,7 +3,7 @@
 var1=int(input("introduce un numero"))
 var2=int(input("introduce otro numero"))
 
-#realizamos las operaciones
+#realizamos todas las operaciones
 total1=var1+var2
 total2=var1-var2
 total3=var1*var2

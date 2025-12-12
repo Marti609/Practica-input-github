@@ -8,7 +8,7 @@ decimal =float(input("introduce un numero decimal."))
 #solicitar una cadena de texto
 texto = input("introduce una cadena de texto")
 
-#mostrat por pantalla los valores ingresados
+#mostramos por pantalla los valores ingresados
 print("los valores introducidos son:")
 print(f"entero:", entero)
 print(f"cadena de texto:", texto)

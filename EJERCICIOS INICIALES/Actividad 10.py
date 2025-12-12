@@ -13,7 +13,7 @@ if dividendo % 2 == 0:
 else:
     paridad = "impar"
 
-# Mostrar resultados por pantalla
+# Mostrar los resultados por pantalla
 print("El cociente es:",cociente)
 print("El resto es:",resto)
 print("El dividendo es:",paridad)
