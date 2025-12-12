@@ -1,7 +1,8 @@
-# Practica-input-github
+# 1r trimestre de programación curso 2025-2026
 Esta es la primera practica del curso 2025-2026, en la que tengo como proposito aprender a trabajar con el python y a practicar.
 Autor: Martí Galmàn Vila
 Versión inicial: 12/09/2025
+Ejercicios iniciales:
 1. Programa que muestre por pantalla la frase “hello world”
 2. Programa que introduzca por teclado tres tipos de variables y se muestren por pantalla
 en el siguiente orden: número entero, texto y número decimal.
@@ -40,6 +41,7 @@ es igual o superior a 25, debe aparecer un mensaje informando de sobrepeso.
 importantes descuentos. A los adultos se les aplicará un 10% de descuento y a los menores 
 de 18 años un 50%. Si la entrada cuesta 12 euros, calcula el total a pagar introduciendo por 
 teclado el número de menores y el número de adultos que asisten al cine.
+Ejercicios con coindicionales:
 19. Programa que introduzca dos números y devuelva cuál de los dos es mayor, menor o son 
 iguales.
 20. A partir del ejercicio anterior, forzar que el usuario solo pueda introducir por teclados 
@@ -72,6 +74,7 @@ no distinguir entre mayúsculas y minúsculas.
 hay mal que dure cien años.
 34. Corrige los 4 errores o añade el código que necesites para que el siguiente programa se 
 ejecute correctamente.
+Ejercicios con for:
 35. Programa que al introducir un número por teclado permita mostrar ese número de veces tu 
 nombre.
 36. Programa que sume los n primeros números naturales. n Lo introduce el usuario.
@@ -89,7 +92,7 @@ por pantalla cada letra.
 44. Realiza un programa que recorra todos los números comprendidos de 0 a 100 realizando saltos 
 de 3 en 3. El resultado debe aparecer por pantalla en una línea con los números separados por ‘,’
 45. Realiza un programa que permita introducir una palabra por teclado y puedas recorrer el string
-distinguiendo vocales y las consonantes:
+distinguiendo vocales y las consonantes.
 46. A partir del programa anterior, soluciona el error que se produce en el test anterior con la 
 palabra Abrigo utilizando únicamente una instrucción.
 47. Realiza un programa donde el usuario introduzca por teclado 2 intervalos, por pantalla se debe 
@@ -100,6 +103,7 @@ esa palabra para que sea ese el criterio que establezca el rango del bucle de ma
 tenga x oportunidades para ver si letra introducida está en esa palabra.
 49. A partir del programa anterior, modifica el código para que al introducir la letra por teclado te 
 indique en qué posición de la palabra se encuentra la letra.
+Ejercicios con while:
 50. Realiza un programa que de los buenos días 3 veces. Con While
 51. A partir del programa anterior, modifica el código para que sea el usuario quién introduzca el 
 número de veces que desea que repita la frase Buenos días. Con While
