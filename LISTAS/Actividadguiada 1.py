@@ -1,9 +1,17 @@
+milistapor2=[]
 milista=[1,2,3,4,5]
-milistapor2:[]
 maximo=max(milista)
 minimo=min(milista)
 suma=sum(milista)
-milistapor2= [i* 2 for i in milista]
+
+#for i in range(len(milista)):
+    #calculo=milista[i]*2
+    #milistapor2.append(calculo)
+
+for i in milista:
+    milistapor2.append(i*2)
+
+#milistapro=[n*2 for i in milista]
 
 print(milista)
 print(f"maximo:{maximo}")
